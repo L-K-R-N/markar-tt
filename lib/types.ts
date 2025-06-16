@@ -26,9 +26,9 @@ export interface CarsResponse {
 }
 
 export interface CarsPageProps {
-  searchParams: {
+  searchParams: Promise<{
     page?: string | string[];
     sort?: string | string[];
     order?: string | string[];
-  };
+  }>;
 }
