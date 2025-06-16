@@ -6,22 +6,43 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
+    "antd": "^5.26.0",
+    "axios": "^1.9.0",
+    "next": "15.3.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.3.3"
+    "swiper": "^11.2.8",
+    "tailwind-merge": "^3.3.1"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@chromatic-com/storybook": "^4.0.0",
+    "@eslint/eslintrc": "^3",
+    "@storybook/addon-a11y": "^9.0.9",
+    "@storybook/addon-docs": "^9.0.9",
+    "@storybook/addon-vitest": "^9.0.9",
+    "@storybook/nextjs": "^9.0.9",
+    "@storybook/nextjs-vite": "^9.0.9",
+    "@tailwindcss/postcss": "^4.1.10",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
+    "@vitest/browser": "^3.2.3",
+    "@vitest/coverage-v8": "^3.2.3",
+    "autoprefixer": "^10.4.21",
     "eslint": "^9",
     "eslint-config-next": "15.3.3",
-    "@eslint/eslintrc": "^3"
+    "eslint-plugin-storybook": "^9.0.9",
+    "next-router-mock": "^1.0.2",
+    "playwright": "^1.53.0",
+    "postcss": "^8.5.5",
+    "storybook": "^9.0.9",
+    "tailwindcss": "^4.1.10",
+    "typescript": "^5",
+    "vitest": "^3.2.3"
   }
 }
